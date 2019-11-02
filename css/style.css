@@ -1,0 +1,293 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.clear{
+  clear: both;
+}
+body{
+  font-family: sans-serif;
+  position: relative;
+}
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+.container{
+  width: 80%;
+  float: right;
+  padding: 0 70px 0 70px;
+}
+/*start sidebar*/
+.sidebar{
+  padding: 100px 20px 0 50px;
+  width: 20%;
+  float: left;
+  background-color: #f44336;
+  height: 100%;
+  position: fixed;
+}
+.sidebar-title{
+  color: #fff;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.sidebar-title span{
+  display: block;
+}
+.sidebar ul li{
+  line-height: 30px;
+  width: 210px;
+}
+.sidebar ul li a{
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+  width: 100%;
+  padding: 10px;
+}
+.sidebar ul li a:hover{
+  color: #000;
+  background-color: #fff;
+}
+/*end sidebar*/
+/*Start header*/
+.header{
+  padding: 60px 0 30px 0;
+}
+.header-title{
+  font-size: 70px;
+  text-transform: capitalize;
+}
+.header-title-2{
+  margin-top: 30px;
+  font-size: 40px;
+  text-transform: capitalize;
+  color: #f44336;
+}
+.header-line{
+  display: block;
+  height: 8px;
+  width: 70px;
+  border: 5px solid #f00;
+}
+/*End header*/
+/*start images*/
+.img-left{
+  width: 50%;
+  float: left;
+  margin-bottom: 10px;
+}
+.img-left img{
+  width: 98%;
+  opacity: .8;
+}
+.img-left img:hover{
+  opacity: 1;
+  transition: opacity 1s;
+}
+.img-left .pos{
+  margin-left: 1%;
+}
+/*End services*/
+.services{
+  padding: 70px 0 70px 0;
+}
+.services-title{
+  font-size: 50px;
+  text-transform: capitalize;
+  color: #f44336;
+}
+.services-line{
+  display: block;
+  height: 8px;
+  width: 70px;
+  border: 5px solid #f00;
+}
+.services-dicrption{
+  margin-top: 40px;
+  font-size: 18px;
+  color: #9c9292;
+  line-height: 1.5;
+}
+.services-dicrption span{
+  display: block;
+  margin-bottom: 20px;
+}
+/*End services*/
+/*start skills*/
+.skills{
+  padding: 70px 0 70px 0;
+  overflow: hidden;
+}
+.skills-img{
+  width: 32%;
+  float: left;
+  background-color: #ddd;
+  overflow: hidden;
+  text-align: center;
+  opacity: .5;
+}
+.skills-img:hover{
+  opacity: 1;
+  transition: opacity 1s;
+  margin-top: -20px;
+  transition: margin-top 1s;
+  cursor: pointer;
+}
+.skills-img img{
+  width: 100%;
+}
+.skills-img span{
+  display: block;
+  margin: 10px 0;
+  font-weight: bold;
+  font-size: 18px;
+}
+.skills-img p{
+  margin: 20px 0 100px 0;
+}
+div.center{
+  margin: 0 2%;
+}
+/*end skills*/
+/*Start price*/
+.price{
+  padding: 70px 0 70px 0;
+  overflow: hidden;
+}
+.price-title{
+  font-size: 50px;
+  text-transform: capitalize;
+  color: #f44336;
+}
+.price-line{
+  display: block;
+  height: 8px;
+  width: 70px;
+  border: 5px solid #f00;
+}
+.price-dicrption{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  color: #9c9292;
+  line-height: 1.5;
+}
+.table{
+  width: 50%;
+  float: left;
+  overflow: hidden;
+}
+.table table{
+  width: 99%;
+  background-color: #ddd;
+  text-align: center;
+}
+.table table.pro{
+  margin-left: .5%;
+}
+.table table tr td{
+  display: block;
+  padding: 20px;
+  border-bottom: 1px solid #fff;
+  text-align: center;
+  color: #505050;
+  font-weight: bold;
+}
+
+.table table tr td.first{
+  font-size: 25px;
+  padding: 40px;
+  text-transform: capitalize;
+  background-color: #f44336;
+  color: #fff;
+}
+.table table tr td.color{
+  background-color: #505050;
+}
+.table table tfoot tr td{
+  border: none;
+}
+.table table tfoot tr td button{
+  width: 120px;
+  padding: 15px;
+  border: none;
+  background-color: none;
+  background-color: #fff;
+  color: #000;
+  font-weight: bold;
+  font-size: 18px;
+  font-weight: lighter;
+  text-transform: capitalize;
+}
+.table table tfoot tr td button.second-button{
+  background-color: #f44336;
+  color: #fff;
+}
+/*end price*/
+/*Start contct us*/
+.contact-us{
+    padding: 70px 0 70px 0;
+}
+.contact-title{
+  font-size: 50px;
+  text-transform: capitalize;
+  color: #f44336;
+}
+.contact-line{
+  display: block;
+  height: 8px;
+  width: 70px;
+  border: 5px solid #f00;
+}
+.contact-discrption{
+  margin-top: 40px;
+  font-size: 18px;
+  color: #9c9292;
+  line-height: 1.5;
+}
+.contact-form label{
+  display:block;
+  margin: 5px 0;
+  text-transform: capitalize;
+  color: #504a4a;
+}
+.contact-form input{
+  width: 100%;
+  padding: 15px;
+  outline: none;
+}
+.button-send{
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+  padding: 15px;
+  border: none;
+  outline: none;
+  background-color: none;
+  background-color:#f44336;
+  color: #fff;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+/*End contact us*/
+/*Start footer*/
+.footer{
+  padding: 70px 50px 70px 0;
+  background-color: #ddd;
+  text-align: right;
+  font-size: 20px;
+  text-transform: capitalize;
+  color: #444;
+}
+
+.footer span{
+  color: #f44336;
+}
